@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f2e6;
+      color: #003300;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #006600;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding: 20px;
+    }
+    .sidebar img {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      margin-left: 240px;
+      padding: 40px;
+    }
+    .counter {
+      font-size: 3em;
+      font-weight: bold;
+      color: #006600;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <img src="/assets/logo.png" alt="Kolt-Hasselager IF">
+    {% include menu.html %}
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>
