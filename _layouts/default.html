@@ -21,10 +21,9 @@
     }
 
     .sidebar img {
-      width: 180px;
-      height: auto;
-      display: block;
+      max-width: 180px;
       margin-bottom: 20px;
+      display: block;
     }
 
     .sidebar a {
@@ -75,8 +74,8 @@
       color: white;
       font-weight: bold;
       line-height: 40px;
-      border-radius: 20px 0 0 20px;
       position: relative;
+      transition: width 0.6s ease;
     }
 
     .progress-bar span {
@@ -84,40 +83,33 @@
       width: 100%;
       left: 0;
       top: 0;
-    }
-
-    .update-time {
-      margin-top: 10px;
-      font-size: 0.9em;
-      color: #eeeeee;
-    }
-
-    .tribune-image {
-      margin-top: 30px;
       text-align: center;
     }
 
-    .tribune-image img {
+    .tribune-image {
+      display: block;
+      margin: 30px auto;
       max-width: 100%;
       height: auto;
-      border-radius: 10px;
+    }
+
+    .last-updated {
+      text-align: center;
+      font-size: 0.9em;
+      color: #444;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
   <div class="sidebar">
-    <img src="/assets/logo_428741.png" alt="Kolt-Hasselager IF">
+    <img src="{{ site.baseurl }}/assets/logo_428741.png" alt="Kolt-Hasselager IF">
     {% include menu.html %}
   </div>
 
   <div class="content">
     {{ content }}
   </div>
-
-  <!-- Instant.page fjerner flicker -->
-  <script src="https://instant.page/5.1.0" type="module" defer></script>
 </body>
 </html>
-
-<script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.3.0/dist/turbo.es2017-umd.js"></script>
 

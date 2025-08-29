@@ -1,5 +1,4 @@
-title: "Kolt-Hasselager IF – Ny Tribune"
-description: "Indsamling til ny tribune"
-baseurl: ""
-url: "https://ditdomæne.dk"
+title: "Kolt-Hasselager IF"
+baseurl: "/khif-tribune" # repo-navnet
+url: "https://msj33.github.io"
 theme: minima
