@@ -19,11 +19,15 @@ title: "Forside"
     <div class="progress-text">{{ site.data.donationer.belob }} kr. af 500.000 kr.</div>
   </div>
 
+  <p>Målet er 500.000 kr.</p>
+
   <p>Se de støttende donorer og fonde i menuen til venstre.</p>
 
-  <img src="/assets/khif_tribune.png" alt="Ny tribune">
+  <!-- Tribune billede med relative_url -->
+  ![Ny tribune]({{ '/assets/khif_tribune.png' | relative_url }})
 
-  <p style="text-align: center; font-style: italic; color: #333333;">
+  <!-- Sidst opdateret -->
+  <p class="last-updated">
     Sidst opdateret: {{ site.data.donationer.sidst_opdateret }}
   </p>
 </div>
