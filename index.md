@@ -24,7 +24,7 @@ title: "Forside"
   <p>Se de støttende donorer og fonde i menuen til venstre.</p>
 
   <!-- Tribune billede med relative_url -->
-  ![Ny tribune]({{ '/assets/khif_tribune.png' | relative_url }})
+<img src="{{ '/assets/khif_tribune.png' | relative_url }}" alt="Ny tribune" class="tribune-image">
 
   <!-- Sidst opdateret -->
   <p class="last-updated">
