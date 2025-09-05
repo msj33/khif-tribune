@@ -4,15 +4,15 @@ title: "Forside"
 ---
 
 <div class="homepage-container">
-  <h1>Støt KHIF Tribunen</h1>
+  <h1>KHIF Tribunen</h1>
 
-  <p>Kolt-Hasselager IF Fodbold planlægger at bygge en tribune, som skal styrke fællesskabet samt gøre rammerne for vores klub endnu bedre.</p>
+  <p>Kolt-Hasselager IF Fodbold arbejder aktivt for at bygge en tilskuer-tribune, som skal styrke fællesskabet samt gøre rammerne for vores klub endnu bedre.</p>
 
   {% include progressbar.html belob=site.data.donationer.belob total=500000 %}
 
-  <p>Se de enkelte donationer/fondsmidler, Vær med til at støtte og læs meget mere om projektet via menuen</p>
+  <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
 
-    <!-- Kursiv note før billedet -->
+  <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
     *Billedet er en idéskitse og viser ikke det færdige resultat*
   </p>

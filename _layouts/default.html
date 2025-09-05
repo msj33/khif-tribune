@@ -32,6 +32,7 @@
       color: var(--secondary-color);
     }
 
+    /* Sidebar */
     .sidebar {
       width: 220px;
       background-color: var(--primary-color);
@@ -57,10 +58,11 @@
       font-size: clamp(16px, 1.2vw, 20px);
     }
 
+    /* Content */
     .content {
       margin-left: 240px;
-      padding: 40px;
       min-height: 100vh;
+      padding: 20px;
     }
 
     .homepage-container {
@@ -69,45 +71,71 @@
       text-align: center;
     }
 
-  .tribune-image {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;  /* skalerer ned på mobil */
-    height: auto;
-    border-radius: 8px;
-  }
+    .tribune-image {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
 
+    /* Stram margin på tekst og progress-bar */
+    .homepage-container h1,
+    .homepage-container p,
+    .homepage-container img,
+    .homepage-container .progress-bar-container {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Mobiljusteringer */
     @media (max-width: 600px) {
       .sidebar {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /* menu-links til venstre */
         align-items: center;
-      }
-
-      .sidebar img {
-        max-width: 120px;
-        margin: 0 auto 10px auto;
+        gap: 30px; /* afstand mellem menu og logo */
+        padding: 10px;
       }
 
       .sidebar a {
-        font-size: 18px;
-        margin: 6px 0;
-        text-align: center;
+        font-size: 16px;
+        margin: 0;  /* gap styrer afstand */
+        order: 1;
+      }
+
+      .sidebar img {
+        order: 2;
+        flex-shrink: 0;
+        max-width: 150px;
+        margin-left: 120px;  /* flytter logo til højre for menuen, men ikke for langt */
       }
 
       .content {
         margin-left: 0;
-        padding: 20px;
+        padding: 10px;
+      }
+
+      .homepage-container {
+        max-width: 100%;
+        padding: 0 10px;
+      }
+
+      .tribune-image {
+        max-width: 100%;
+        height: auto;
       }
     }
   </style>
 </head>
 <body>
   <div class="sidebar">
-    <img src="{{ site.baseurl }}/assets/logo_428741.png" alt="Kolt-Hasselager IF">
     {% include menu.html %}
+    <img src="{{ site.baseurl }}/assets/logo_428741.png" alt="Kolt-Hasselager IF">
   </div>
 
   <div class="content">

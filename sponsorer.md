@@ -5,4 +5,4 @@ title: "Sponsorer"
 
 # Vores Sponsorer
 
-Her kan du finde information om sponsorer som støtter KHIF Tribunen
+Her kan du finde information om sponsorer som aktivt støtter KHIF Tribunen
