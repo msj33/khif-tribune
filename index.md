@@ -4,29 +4,21 @@ title: "Forside"
 ---
 
 <div class="homepage-container">
-  <h1>Ny Tribune til Kolt-Hasselager IF</h1>
+  <h1>Støt KHIF Tribunen</h1>
 
-  <p>Vi samler ind til en ny tribune, som skal skabe fællesskab og give endnu bedre rammer for vores klub.</p>
+  <p>Kolt-Hasselager IF Fodbold planlægger at bygge en tribune, som skal styrke fællesskabet samt gøre rammerne for vores klub endnu bedre.</p>
 
-  <div class="counter">
-    Indsamlet beløb: <strong>{{ site.data.donationer.belob }} kr.</strong>
-  </div>
+  {% include progressbar.html belob=site.data.donationer.belob total=500000 %}
 
-  {% assign procent = site.data.donationer.belob | times: 100 | divided_by: 500000 %}
+  <p>Se de enkelte donationer/fondsmidler, Vær med til at støtte og læs meget mere om projektet via menuen</p>
 
-  <div class="progress-container">
-    <div class="progress-bar" style="width: {{ procent }}%;"></div>
-    <div class="progress-text">{{ site.data.donationer.belob }} kr. af 500.000 kr.</div>
-  </div>
+    <!-- Kursiv note før billedet -->
+  <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
+    *Billedet er en idéskitse og viser ikke det færdige resultat*
+  </p>
 
-  <p>Målet er 500.000 kr.</p>
+  <img src="{{ '/assets/khif_tribune.png' | relative_url }}" alt="Ny tribune" class="tribune-image">
 
-  <p>Se de støttende donorer og fonde i menuen til venstre.</p>
-
-  <!-- Tribune billede med relative_url -->
-<img src="{{ '/assets/khif_tribune.png' | relative_url }}" alt="Ny tribune" class="tribune-image">
-
-  <!-- Sidst opdateret -->
   <p class="last-updated">
     Sidst opdateret: {{ site.data.donationer.sidst_opdateret }}
   </p>
