@@ -8,7 +8,7 @@ title: "Forside"
 
   <p>Kolt-Hasselager IF Fodbold arbejder aktivt for at bygge en tilskuer-tribune, som skal styrke fællesskabet samt gøre rammerne for vores klub endnu bedre.</p>
 
-  {% include progressbar.html belob=site.data.donationer.belob total=600000 %}
+  {% include progressbar.html belob=site.data.donationer.belob total=510000 %}
 
   <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
 
