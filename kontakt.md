@@ -11,7 +11,7 @@ Så er du altid velkommen til at kontakte os:
 
 📧 [Send en mail til KHIF Fodbold](mailto:info@khif.info)  
 
-🌐 [Besøg KHIF Fodbolds officielle hjmmeside](https://khif.info)
+🌐 [Besøg KHIF Fodbolds officielle hjemmeside](https://khif.info)
 
 Kolt-Hasselager IF Fodbold
 
