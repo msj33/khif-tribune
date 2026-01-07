@@ -1,4 +1,4 @@
 title: "Kolt-Hasselager IF"
-baseurl: "/khif-tribune" # repo-navnet
-url: "https://msj33.github.io"
+baseurl: "" # Sæt "/khif-tribune" her, hvis github custom domain fjernes i Repo settings.
+url: "https://khiftribune.dk" # Github pages default site er https://msj33.github.io
 theme: minima
