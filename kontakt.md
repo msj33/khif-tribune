@@ -17,13 +17,13 @@ Kolt-Hasselager IF Fodbold
 
 CVR: 30865960
 
-Tribune-udvalget består af:
-Tom Samsøe
-Morten Holm
-Morten Stensgaard
-Casper Manø
-Martin Pløk Svenningsen
+Tribune-udvalget består af:  
+Tom Samsøe  
+Morten Holm  
+Morten Stensgaard  
+Casper Manø  
+Martin Pløk Svenningsen  
 
-👏👏👏👏 Stor tak til de alle de hjælpende hænder undervejs 👏👏👏👏:
--KHIF-Ultras drengene for at skille mere en +150 Stadion sæder ad
--Stadion-gruppen som transporterede de mange sæder(Christina, Claus, Dennis, Jesper, Kim, Martin, Morten, Niels)
+👏👏👏👏 Stor tak til de alle de hjælpende hænder undervejs 👏👏👏👏:  
+-KHIF-Ultras drengene for at skille mere en +150 Stadion sæder ad  
+-Stadion-gruppen som transporterede de mange sæder(Christina, Claus, Dennis, Jesper, Kim, Martin, Morten, Niels)  
