@@ -54,3 +54,18 @@ document.addEventListener("DOMContentLoaded", function() {
   fill.style.width = "{{ procent }}%";
 });
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const progressText = document.querySelector(".progress-text");
+
+    function formatNumber(num) {
+      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    }
+
+    const belob = {{ belob }};
+    const total = {{ total }};
+
+    progressText.textContent = formatNumber(belob) + " kr. af " + formatNumber(total) + " kr.";
+  });
+</script>
