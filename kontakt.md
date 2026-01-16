@@ -13,6 +13,10 @@ Så er du altid velkommen til at kontakte os:
 
 🌐 [Besøg KHIF Fodbolds officielle hjemmeside](https://khif.info)
 
+Kolt-Hasselager IF Fodbold
+
+CVR: 30865960
+
 Tribune-udvalget består af:
 Tom Samsøe
 Morten Holm
@@ -20,6 +24,6 @@ Morten Stensgaard
 Casper Manø
 Martin Pløk Svenningsen
 
-Kolt-Hasselager IF Fodbold
-
-CVR: 30865960
+👏👏👏👏 Stor tak til de alle de hjælpende hænder undervejs 👏👏👏👏:
+-KHIF-Ultras drengene for at skille mere en +150 Stadion sæder ad
+-Stadion-gruppen som transporterede de mange sæder(Christina, Claus, Dennis, Jesper, Kim, Martin, Morten, Niels)
