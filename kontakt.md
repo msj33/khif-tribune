@@ -13,6 +13,13 @@ Så er du altid velkommen til at kontakte os:
 
 🌐 [Besøg KHIF Fodbolds officielle hjemmeside](https://khif.info)
 
+Tribune-udvalget består af:
+Tom Samsøe
+Morten Holm
+Morten Stensgaard
+Casper Manø
+Martin Pløk Svenningsen
+
 Kolt-Hasselager IF Fodbold
 
 CVR: 30865960
