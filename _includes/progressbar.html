@@ -1,10 +1,13 @@
 {% assign belob = include.belob | plus: 0 %}
-{% assign procent = belob | times: 100 | divided_by: include.total %}
+{% assign total = include.total | plus: 0 %}
+{% assign procent = belob | times: 100 | divided_by: total %}
 
 <div class="progress-bar-container">
   <div class="progress-fill" style="width: {{ procent }}%;"></div>
   <div class="progress-remaining" style="width: {{ 100 | minus: procent }}%;"></div>
-  <div class="progress-text">{{ belob | number_with_delimiter }} kr. af {{ include.total | number_with_delimiter }} kr.</div>
+  <div class="progress-text">
+    {{ belob | number_with_delimiter: "." }} kr. af {{ total | number_with_delimiter: "." }} kr.
+  </div>
 </div>
 
 <style>
@@ -18,21 +21,18 @@
   margin: 20px 0;
   background-color: rgba(255,255,255,0.2);
 }
-
 .progress-fill {
   background-color: #4CAF50;
   height: 100%;
   transition: width 0.6s ease;
   z-index: 1;
 }
-
 .progress-remaining {
   background-color: rgba(255,255,255,0.2);
   height: 100%;
   transition: width 0.6s ease;
   z-index: 0;
 }
-
 .progress-text {
   position: absolute;
   top: 0;
@@ -54,4 +54,3 @@ document.addEventListener("DOMContentLoaded", function() {
   fill.style.width = "{{ procent }}%";
 });
 </script>
-
