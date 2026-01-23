@@ -15,8 +15,8 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 
 <h2 class="progress-title">Solgte sæder</h2>
 
-  {% include progressbar.html belob=site.data.donationer.seatbelob total=site.data.donationer.seattotal unit="stk."%}  
-    
+  {% include progressbar.html belob=site.data.donationer.seatbelob total=site.data.donationer.seattotal unit="stk."%}
+  
 💡 **Sådan køber du et tribunesæde:** 
 KOMMER SNAREST  
 
