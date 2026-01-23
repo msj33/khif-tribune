@@ -17,7 +17,7 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
   Solgte sæder
   </h2>
 
-<div>
+<div class="homepage-container">
   {% include progressbar.html
      belob=site.data.donationer.seatbelob
      total=site.data.donationer.seattotal
