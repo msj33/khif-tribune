@@ -9,9 +9,9 @@ Har du yderligere spørgsmål til projektet, gode input eller ønsker du at stø
 
 Så er du altid velkommen til at kontakte os:
 
-📧 [Send en mail til KHIF Fodbold - Klik her](mailto:kunstgraes@khif.info)  
+📧 [Send en mail til KHIF Fodbold - Så klik her](mailto:kunstgraes@khif.info)  
 
-🌐 [Besøg KHIF Fodbolds officielle hjemmeside](https://khif.info)
+🌐 [Besøg KHIF Fodbolds officielle hjemmeside - Så klik her](https://khif.info)
 
 Kolt-Hasselager IF Fodbold
 
