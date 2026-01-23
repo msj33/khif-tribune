@@ -13,13 +13,9 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 
 *Sponsoratet er udelukkende navngivende og giver ikke særlige rettigheder til sædet.*
 
-<h2 class="progress-title">Finansieringsbarometer</h2>
+<h2 class="progress-title">Solgte sæder</h2>
 
-{% include progressbar.html
-   belob=saedekob
-   total=saedetotal
-   unit="stk."
-%}
+  {% include progressbar.html belob=site.data.donationer.seatbelob total=site.data.donationer.seattotal unit="kr."%}
 
 💡 **Sådan køber du et tribunesæde:** 
 KOMMER SNAREST
