@@ -11,7 +11,7 @@ title: "Forside"
   <h2 style="text-align: center; margin-bottom: 10px;">
   Finansieringsbarometer
   </h2>
-  {% include progressbar.html belob=site.data.donationer.belob total=605000 %}
+  {% include progressbar.html belob=site.data.donationer.belob total=620000 %}
 
   <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
 
