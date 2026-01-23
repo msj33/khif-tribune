@@ -11,10 +11,16 @@ title: "Forside"
   <h2 style="text-align: center; margin-bottom: 10px;">
   Finansieringsbarometer
   </h2>
-  
-  {% include progressbar.html belob=site.data.donationer.belob total=site.data.donationer.total unit="kr."%}
 
-  <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
+  <div>
+  {% include progressbar.html
+     belob=site.data.donationer.belob
+     total=site.data.donationer.total
+     unit="kr."
+  %}
+  </div>
+  
+    <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
 
   <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
