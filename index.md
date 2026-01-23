@@ -20,7 +20,7 @@ title: "Forside"
   %}
   </div>
   
-    <p>Læs mere om projektet og se hvem der støtter os via menuen</p>
+    <p>Læs mere om projektet og hjælp med at støtte os via menuen</p>
 
   <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
