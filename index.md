@@ -27,7 +27,7 @@ title: "Forside"
     *Billedet er en idéskitse og viser ikke det færdige resultat*
   </p>
 
-  <img src="{{ '/assets/khif_tribune.png' | relative_url }}" alt="Ny tribune" class="tribune-image">
+  <img src="{{ '/assets/khif_tribune-2.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
 
   <p class="last-updated">
     Sidst opdateret: {{ site.data.donationer.sidst_opdateret }}
