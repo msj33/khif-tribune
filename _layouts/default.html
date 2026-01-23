@@ -94,48 +94,47 @@
       margin-bottom: 0.5em;
     }
 
-    /* Mobiljusteringer */
-    @media (max-width: 600px) {
-      .sidebar {
-        position: relative;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start; /* menu-links til venstre */
-        align-items: center;
-        gap: 30px; /* afstand mellem menu og logo */
-        padding: 10px;
-      }
+    /* Mobile adjustments */
+@media (max-width: 600px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* menu left, logo right */
+    align-items: center;
+    padding: 10px;
+  }
 
-      .sidebar a {
-        font-size: 16px;
-        margin: 0;  /* gap styrer afstand */
-        order: 1;
-      }
+  .sidebar a {
+    font-size: 16px;
+    margin: 0;  /* spacing handled by flex */
+  }
 
-      .sidebar img {
-        order: 2;
-        flex-shrink: 0;
-        max-width: 150px;
-        margin-left: 120px;  /* flytter logo til højre for menuen, men ikke for langt */
-      }
+  .sidebar img {
+    order: 2;
+    flex-shrink: 1;        /* allow shrinking */
+    max-width: 40%;        /* relative width so it never overflows */
+    height: auto;          /* maintain aspect ratio */
+  }
 
-      .content {
-        margin-left: 0;
-        padding: 10px;
-      }
+  .content {
+    margin-left: 0;
+    padding: 10px;
+  }
 
-      .homepage-container {
-        max-width: 100%;
-        padding: 0 10px;
-      }
+  .homepage-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
 
-      .tribune-image {
-        max-width: 100%;
-        height: auto;
-      }
-    }
+  .tribune-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
   </style>
 </head>
 <body>
