@@ -13,4 +13,15 @@ Prisen for et reklameskilt er 5.000 kr. excl. moms og løber over en 5-årig per
 
 Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamesponsor i KHIF Fodbold.
 
-**Status:** 4 ud af 12 reklamesponsorpladser er solgt.
+<h2 style="text-align: center; margin-bottom: 10px;">
+  Solgte Reklameskilte
+  </h2>
+
+<div>
+  {% include progressbar.html
+     belob=site.data.donationer.sponsorbelob
+     total=site.data.donationer.sponsortotal
+     unit="stk."
+  %}
+</div>
+  
