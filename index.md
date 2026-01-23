@@ -12,7 +12,7 @@ title: "Forside"
   Finansieringsbarometer
   </h2>
 
-  <div class="homepage-container">
+  <div>
   {% include progressbar.html
      belob=site.data.donationer.belob
      total=site.data.donationer.total
