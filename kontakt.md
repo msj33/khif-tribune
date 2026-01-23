@@ -14,11 +14,11 @@ Så er du altid velkommen til at kontakte os:
 
 
 ## Tribune-udvalget består af:  
-Tom Samsøe Hansen - tomshansen@outlook.dk  
-Morten Holm - mollelone@hotmail.com  
-Morten Stensgaard - stensgaard@gmail.com  
-Casper Manø  - stjerne_08@hotmail.com  
-Martin Pløk Svenningsen - saksi83@gmail.com  
+Tom Samsøe Hansen - <a href="mailto:tomshansen@outlook.dk">tomshansen@outlook.dk</a>  
+Morten Holm - <a href="mailto:mollelone@hotmail.com">mollelone@hotmail.com</a>  
+Morten Stensgaard - <a href="mailto:stensgaard@gmail.com">stensgaard@gmail.com</a>  
+Casper Manø - <a href="mailto:stjerne_08@hotmail.com">stjerne_08@hotmail.com</a>  
+Martin Pløk Svenningsen - <a href="mailto:saksi83@gmail.com">saksi83@gmail.com</a>  
 
 👏👏👏👏 Stor tak til de alle de hjælpende hænder undervejs 👏👏👏👏:  
 -KHIF-Ultras drengene for at skille mere en +150 Stadion sæder ad  
