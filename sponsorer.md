@@ -17,7 +17,7 @@ Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamespon
   Solgte Reklameskilte
   </h2>
 
-<div>
+<div class="homepage-container">
   {% include progressbar.html
      belob=site.data.donationer.sponsorbelob
      total=site.data.donationer.sponsortotal
