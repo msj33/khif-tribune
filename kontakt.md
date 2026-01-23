@@ -7,7 +7,7 @@ title: "Kontakt"
 
 Har du yderligere spørgsmål til projektet, gode input eller ønsker du at støtte projektet aktivt?
 
-Så er du altid velkommen til at kontakte os:
+Så er du altid velkommen til at kontakte os:  
 📧 [Send en mail til KHIF Fodbold - Klik her](mailto:kunstgraes@khif.info)  
 
 🌐 [KHIF Fodbolds hjemmeside - Klik her](https://khif.info)
