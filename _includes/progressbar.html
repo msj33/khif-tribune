@@ -1,13 +1,17 @@
 {% assign belob = include.belob | plus: 0 %}
 {% assign total = include.total | plus: 0 %}
 {% assign procent = belob | times: 100 | divided_by: total %}
+{% assign unit = include.unit | default: "kr" %}
 
 <div class="progress-bar-container">
   <div class="progress-fill" style="width: {{ procent }}%;"></div>
   <div class="progress-remaining" style="width: {{ 100 | minus: procent }}%;"></div>
   <div class="progress-text">
-    {{ belob | number_with_delimiter: "." }} kr. af {{ total | number_with_delimiter: "." }} kr.
-  </div>
+  {{ belob | number_with_delimiter: "." }}
+  {{ include.unit | default: "kr." }}
+  af
+  {{ total | number_with_delimiter: "." }}
+  {{ include.unit | default: "kr." }}
 </div>
 
 <style>
