@@ -14,22 +14,23 @@ Sommeren 2025 fik Kolt-Hasselager IF godkendelse fra Aarhus Kommune til at opfø
 ## Detaljerne – tribunen
 
 - Udføres i træ i tre rækker – et mere miljøvenligt valg.
-- Ca. 75 siddepladser – genbrug fra det tidligere Aarhus Stadion.
-- Bygges ind mellem de eksisterende træer på skrænten.
+- Ca. 90 siddepladser – genbrug fra det tidligere Aarhus Stadion.
+- 4 flotte egetræer bevares og integreres i tilskuere tribunen.
 - Tribunen males, så den kan modstå vind og vejr.
 - Det eksisterende hegn på langsiden føres uden om tribunen, så der er overvejende frit udsyn til banen.
-- Beplantning og træer på skrænten tilpasses.
+- Tribunen overdækkes med en trækonstruktion.
 
 ## Økonomien
 
-- Anlægsbudgettet er sat til 605.000 kr. (inkl. 15 % buffer).
-- Der ansøges om dækning af projektet gennem fondsdonationer.
+- Anlægsbudgettet er sat til 620.000 kr.
+- Alle anlægsopgaver bliver udført af nuværende eller kommende sponsorer i klubben
+- Der ansøges om støtte til projektet gennem fondsdonationer.
 - Der vil blive solgt sponsorsæder og reklameskilte.
 
 ## Tidshorisont
 
 - Ansøgninger til diverse fonde blev påbegyndt i slutningen af august 2025.
-- Forudsat at den nødvendige finansiering indhentes, forventes projektet færdiggjort i sommeren 2026.
+- Anlæggelsen er gået i gang og med forbehold for det danske vejr, så forventer vi projektet færdiggjort omkring maj 2026.
 
 ## Andre aktiviteter
 
