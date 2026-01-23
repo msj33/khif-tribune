@@ -1,17 +1,21 @@
+{% comment %}
+  progressbar.html
+  Usage:
+    {% include progressbar.html belob=site.data.donationer.belob total=site.data.donationer.total unit="kr." %}
+    {% include progressbar.html belob=site.data.donationer.seatbelob total=site.data.donationer.seattotal unit="stk." %}
+{% endcomment %}
+
 {% assign belob = include.belob | plus: 0 %}
 {% assign total = include.total | plus: 0 %}
 {% assign procent = belob | times: 100 | divided_by: total %}
-{% assign unit = include.unit | default: "kr" %}
+{% assign unit = include.unit | default: "kr." %}
 
 <div class="progress-bar-container">
   <div class="progress-fill" style="width: {{ procent }}%;"></div>
   <div class="progress-remaining" style="width: {{ 100 | minus: procent }}%;"></div>
   <div class="progress-text">
-  {{ belob | number_with_delimiter: "." }}
-  {{ include.unit | default: "kr." }}
-  af
-  {{ total | number_with_delimiter: "." }}
-  {{ include.unit | default: "kr." }}
+    {{ belob | number_with_delimiter: "." }} ud af {{ total | number_with_delimiter: "." }} {{ unit }}
+  </div>
 </div>
 
 <style>
@@ -20,56 +24,4 @@
   display: flex;
   width: 100%;
   height: 40px;
-  border-radius: 20px;
-  overflow: hidden;
-  margin: 20px 0;
-  background-color: rgba(255,255,255,0.2);
-}
-.progress-fill {
-  background-color: #4CAF50;
-  height: 100%;
-  transition: width 0.6s ease;
-  z-index: 1;
-}
-.progress-remaining {
-  background-color: rgba(255,255,255,0.2);
-  height: 100%;
-  transition: width 0.6s ease;
-  z-index: 0;
-}
-.progress-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  color: white;
-  z-index: 2;
-  pointer-events: none;
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const fill = document.querySelector(".progress-fill");
-  fill.style.width = "{{ procent }}%";
-});
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const progressText = document.querySelector(".progress-text");
-
-    function formatNumber(num) {
-      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-    }
-
-    const belob = {{ belob }};
-    const total = {{ total }};
-
-    progressText.textContent = formatNumber(belob) + " kr. af " + formatNumber(total) + " kr.";
-  });
-</script>
+  bord
