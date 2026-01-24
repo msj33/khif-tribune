@@ -21,7 +21,7 @@ Casper Manø - <a href="mailto:stjerne_08@hotmail.com">stjerne_08@hotmail.com</a
 Martin Pløk Svenningsen - <a href="mailto:saksi83@gmail.com">saksi83@gmail.com</a>  
 
 👏👏👏👏 Stor tak til de alle de hjælpende hænder undervejs 👏👏👏👏:  
--KHIF-Ultras drengene for at skille mere en +150 Stadion sæder ad  
+-KHIF-Ultras drengene for at skille mere end +150 Stadion sæder ad  
 -Stadion-gruppen som transporterede de mange sæder(Christina, Claus, Dennis, Jesper, Kim, Martin, Morten, Niels mm.)  
 
 Kolt-Hasselager IF Fodbold  
