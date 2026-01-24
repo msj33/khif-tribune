@@ -9,7 +9,7 @@ Som en del af finansieringen af KHIF-tribuneprojektet udbydes der 12 reklamespon
 
 Reklameskiltene opsættes på den øverste langside ved tribunen.
 
-Prisen for et reklameskilt er 5.000 kr. excl. moms og løber over en 5-årig periode og betales up front. Fradragsberettiget for erhverv.  
+Prisen for et reklameskilt er samlet 5.000 kr. excl. moms og løber over en 5-årig periode og betales up front. Fradragsberettiget for erhverv.  
 
 Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamesponsor i KHIF Fodbold.
 
