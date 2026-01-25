@@ -25,3 +25,17 @@ Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamespon
   %}
 </div>
   
+<h2 style="text-align: center; margin-top: 3rem;">
+  Reklamesponsorpladser
+</h2>
+
+<div class="sponsor-grid">
+  {% for i in (1..12) %}
+  <div class="sponsor-card">
+    <img src="{{ '/assets/bsas.jpg' | relative_url }}" alt="Sponsor">
+    <div class="sponsor-belob">
+      18.500 kr.
+    </div>
+  </div>
+  {% endfor %}
+</div>
