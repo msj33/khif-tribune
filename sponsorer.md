@@ -30,12 +30,12 @@ Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamespon
 </h2>
 
 <div class="sponsor-grid">
-  {% for i in (1..12) %}
-  <div class="sponsor-card">
-    <img src="{{ '/assets/bsas.jpg' | relative_url }}" alt="Sponsor">
-    <div class="sponsor-belob">
-      18.500 kr.
+  {% for sponsor in site.data.sponsorer %}
+    <div class="sponsor-card">
+      <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.navn }}">
+      <div class="sponsor-belob">
+        {{ sponsor.belob }}
+      </div>
     </div>
-  </div>
   {% endfor %}
 </div>
