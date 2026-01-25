@@ -80,11 +80,11 @@
     }
 
     .fonde-image {
-      max-width: 600px;   /* Justér størrelsen her */
-      width: 100%;        /* Gør billedet responsivt */
-      height: auto;       /* Bevarer proportioner */
+      max-width: 600px;
+      width: 100%;
+      height: auto;
       display: block;
-      margin: 0 auto 2rem auto; /* Centreret + luft under */
+      margin: 0 auto 2rem auto;
     }
 
     /* Stram margin på tekst og progress-bar */
@@ -96,47 +96,87 @@
       margin-bottom: 0.5em;
     }
 
+    /* Sponsor grid */
+    .sponsor-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 2rem auto 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .sponsor-card {
+      background-color: #ffffff;
+      color: #000;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .sponsor-card img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+
+    .sponsor-belob {
+      font-weight: bold;
+      color: var(--primary-color);
+      font-size: 1rem;
+    }
+
+    /* Tablet */
+    @media (max-width: 900px) {
+      .sponsor-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
     /* Mobile adjustments */
-@media (max-width: 600px) {
-  .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* menu left, logo right */
-    align-items: center;
-    padding: 10px;
-  }
+    @media (max-width: 600px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
 
-  .sidebar a {
-    font-size: 16px;
-    margin: 0;  /* spacing handled by flex */
-  }
+      .sidebar a {
+        font-size: 16px;
+        margin: 0;
+      }
 
-  .sidebar img {
-    order: 2;
-    flex-shrink: 1;        /* allow shrinking */
-    max-width: 40%;        /* relative width so it never overflows */
-    height: auto;          /* maintain aspect ratio */
-  }
+      .sidebar img {
+        order: 2;
+        flex-shrink: 1;
+        max-width: 40%;
+        height: auto;
+      }
 
-  .content {
-    margin-left: 0;
-    padding: 10px;
-  }
+      .content {
+        margin-left: 0;
+        padding: 10px;
+      }
 
-  .homepage-container {
-    max-width: 100%;
-    padding: 0 10px;
-  }
+      .homepage-container {
+        max-width: 100%;
+        padding: 0 10px;
+      }
 
-  .tribune-image {
-    max-width: 100%;
-    height: auto;
-  }
-}
+      .tribune-image {
+        max-width: 100%;
+        height: auto;
+      }
 
+      .sponsor-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -150,4 +190,3 @@
   </div>
 </body>
 </html>
-
