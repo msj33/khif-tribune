@@ -26,11 +26,11 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 </div>
   
 💡 **Sådan køber du et tribunesæde via MobilePay:** 
-1. Scan nedenstående QR kode med din mobiltelefon ELLER benyt Mobilepay nummeret: **339971#** - _MobilePay boksen hedder "Sponsorsæde KHIF Tribunen"_
+1. Scan nedenstående QR kode med din mobiltelefon ELLER benyt Mobilepay nummeret: **339971** - _MobilePay boxen hedder "Sponsorsæde KHIF Tribunen"_
 
-2. Indtast beløb(500 kr.) og skriv i tekstfeltet det navn(Ex. Hans Hansen) som du gerne vil have påsat sædet.
+2. Indtast beløbet(500 kr.) og skriv i tekstfeltet det navn(Ex. Hans Hansen) som du gerne vil have påsat sædet. _Ønsker du at støtte anonymt, så skriver du blot "Anonym"_
    
-4. KHIF Fodbold takker for din støtte 👏👏👏
+4. KHIF Fodbold takker for jeres støtte 👏👏👏
 
 <img src="{{ '/assets/QR-kode-mobilepay.png' | relative_url }}" alt="Seats" class="fonde-image">
   
