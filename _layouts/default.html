@@ -106,25 +106,35 @@
       padding: 0 1rem;
     }
 
-    .sponsor-card {
-      background-color: #ffffff;
-      color: #000;
-      border-radius: 8px;
-      padding: 1rem;
-      text-align: center;
-    }
+.sponsor-card {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
 
-    .sponsor-card img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 0.5rem;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* lodret centrering */
+  align-items: center;       /* vandret centrering */
 
-    .sponsor-belob {
-      font-weight: bold;
-      color: var(--primary-color);
-      font-size: 1rem;
-    }
+  min-height: 180px;         /* sikrer ens højde */
+}
+
+.sponsor-card img {
+  max-height: 80px;          /* ens logo-højde */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.sponsor-belob {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1rem;
+  text-align: center;
+}
 
     /* Tablet */
     @media (max-width: 900px) {
