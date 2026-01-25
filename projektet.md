@@ -5,7 +5,9 @@ title: "Projektet"
 
 # Projektet
 
-KHIF Fodbold skal have en tribune! 💚🥳⚽️🏟👏
+KHIF Fodbold skal have en tilskuer-tribune! 💚🥳⚽️🏟👏
+
+Tribunen anlægges således at den fremover bliver en integreret del af kunstgræsbanen og dermed med udsyn udover kunstgræsbanen.
 
 I efteråret 2024 fik en arbejdsgruppe i Kolt-Hasselager doneret og indsamlet en stor mængde tribunesæder fra det gamle Aarhus Stadion.
 
