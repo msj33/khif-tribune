@@ -32,6 +32,7 @@ Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamespon
 <div class="sponsor-grid">
   {% for sponsor in site.data.sponsorer %}
     <div class="sponsor-card">
+      <div class="sponsor-navn">{{ sponsor.navn }}</div>
       <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.navn }}">
       <div class="sponsor-belob">
         {{ sponsor.belob }}
