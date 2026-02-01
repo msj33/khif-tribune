@@ -32,6 +32,7 @@
       color: var(--secondary-color);
     }
 
+    /* Sidebar */
     .sidebar {
       width: 220px;
       background-color: var(--primary-color);
@@ -57,12 +58,45 @@
       font-size: clamp(16px, 1.2vw, 20px);
     }
 
+    /* Content */
     .content {
       margin-left: 240px;
       min-height: 100vh;
       padding: 20px;
     }
 
+    .homepage-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .tribune-image {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .fonde-image {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 2rem auto;
+    }
+
+    /* Stram margin på tekst og progress-bar */
+    .homepage-container h1,
+    .homepage-container p,
+    .homepage-container img,
+    .homepage-container .progress-bar-container {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Sponsor grid */
     .sponsor-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -72,49 +106,44 @@
       padding: 0 1rem;
     }
 
-    .sponsor-card {
-      background-color: #ffffff;
-      color: #000;
-      border-radius: 8px;
-      padding: 1rem;
-      text-align: center;
+.sponsor-card {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* lodret centrering */
+  align-items: center;       /* vandret centrering */
 
-      min-height: 180px;
-    }
+  min-height: 180px;         /* sikrer ens højde */
+}
 
-    .sponsor-navn {
-      font-weight: bold;
-      font-size: 0.95rem;
-      margin-bottom: 0.5rem;
-      text-align: center;
-    }
+.sponsor-card img {
+  max-height: 150px;          /* ens logo-højde */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
 
-    .sponsor-card img {
-      max-height: 150px;
-      width: auto;
-      max-width: 100%;
-      object-fit: contain;
-      margin-bottom: 0.5rem;
-    }
+.sponsor-belob {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1rem;
+  text-align: center;
+}
 
-    .sponsor-belob {
-      font-weight: bold;
-      color: var(--primary-color);
-      font-size: 1rem;
-      text-align: center;
-    }
-
+    /* Tablet */
     @media (max-width: 900px) {
       .sponsor-grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
 
+    /* Mobile adjustments */
     @media (max-width: 600px) {
       .sidebar {
         position: relative;
@@ -160,7 +189,6 @@
     }
   </style>
 </head>
-
 <body>
   <div class="sidebar">
     {% include menu.html %}
@@ -169,17 +197,6 @@
 
   <div class="content">
     {{ content }}
-
-    <div class="sponsor-grid">
-      {% for sponsor in site.data.sponsorer %}
-        <div class="sponsor-card">
-          <div class="sponsor-navn">{{ sponsor.navn }}</div>
-          <img src="{{ site.baseurl }}{{ sponsor.logo }}" alt="{{ sponsor.navn }}">
-          <div class="sponsor-belob">{{ sponsor.belob }}</div>
-        </div>
-      {% endfor %}
-    </div>
-
   </div>
 </body>
 </html>
