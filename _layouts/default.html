@@ -32,7 +32,6 @@
       color: var(--secondary-color);
     }
 
-    /* Sidebar – UÆNDRET */
     .sidebar {
       width: 220px;
       background-color: var(--primary-color);
@@ -58,14 +57,12 @@
       font-size: clamp(16px, 1.2vw, 20px);
     }
 
-    /* Content */
     .content {
       margin-left: 240px;
       min-height: 100vh;
       padding: 20px;
     }
 
-    /* Sponsor grid */
     .sponsor-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -84,9 +81,10 @@
 
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
 
-      min-height: 220px;
+      min-height: 180px;
     }
 
     .sponsor-navn {
@@ -94,8 +92,6 @@
       font-size: 0.95rem;
       margin-bottom: 0.5rem;
       text-align: center;
-      min-height: 2.4em;
-      color: #000;
     }
 
     .sponsor-card img {
@@ -103,7 +99,7 @@
       width: auto;
       max-width: 100%;
       object-fit: contain;
-      margin: 0 auto 0.5rem auto;
+      margin-bottom: 0.5rem;
     }
 
     .sponsor-belob {
@@ -113,14 +109,12 @@
       text-align: center;
     }
 
-    /* Tablet */
     @media (max-width: 900px) {
       .sponsor-grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
 
-    /* Mobile – UÆNDRET */
     @media (max-width: 600px) {
       .sidebar {
         position: relative;
@@ -150,6 +144,16 @@
         padding: 10px;
       }
 
+      .homepage-container {
+        max-width: 100%;
+        padding: 0 10px;
+      }
+
+      .tribune-image {
+        max-width: 100%;
+        height: auto;
+      }
+
       .sponsor-grid {
         grid-template-columns: 1fr;
       }
@@ -158,7 +162,6 @@
 </head>
 
 <body>
-
   <div class="sidebar">
     {% include menu.html %}
     <img src="{{ site.baseurl }}/assets/KHIF-logo.png" alt="Kolt-Hasselager IF">
@@ -170,21 +173,13 @@
     <div class="sponsor-grid">
       {% for sponsor in site.data.sponsorer %}
         <div class="sponsor-card">
-
-          <div class="sponsor-navn">
-            {{ sponsor.navn }}
-          </div>
-
+          <div class="sponsor-navn">{{ sponsor.navn }}</div>
           <img src="{{ site.baseurl }}{{ sponsor.logo }}" alt="{{ sponsor.navn }}">
-
-          <div class="sponsor-belob">
-            {{ sponsor.belob }}
-          </div>
-
+          <div class="sponsor-belob">{{ sponsor.belob }}</div>
         </div>
       {% endfor %}
     </div>
-  </div>
 
+  </div>
 </body>
 </html>
