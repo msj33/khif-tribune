@@ -5,7 +5,7 @@ title: "Sponsorer"
 
 # Bliv reklamesponsor
 
-Som en del af finansieringen af KHIF Tribunen udbydes der 12 reklamesponsorpladser.
+Som en del af finansieringen af KHIF Tribunen udbydes der 11 reklamesponsorpladser.
 
 Reklameskiltene opsættes på den øverste langside ved tribunen.
 
