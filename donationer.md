@@ -9,4 +9,4 @@ Her kan du finde information om de fonde og sponsorer som har valgt at støtte K
 
 <h2 style="text-align: center;">Hovedsponsor - 500.000 kr.</h2>
 
-<img src="{{ '/assets/annonceres.jpg' | relative_url }}" alt="Sponsor" class="fonde-image">
+<img src="{{ '/assets/salling-fondene-small.png' | relative_url }}" alt="Sponsor" class="fonde-image">
