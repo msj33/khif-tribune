@@ -14,7 +14,7 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 *Sponsoratet er udelukkende navngivende og giver ikke særlige rettigheder til sædet.*
 
 <h2 style="text-align: center; margin-bottom: 10px;">
-  Solgte sæder
+  UDSOLGT - UDSOLGT - Solgte sæder - UDSOLGT - UDSOLGT
   </h2>
 
 <div class="homepage-container">
