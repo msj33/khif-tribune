@@ -136,21 +136,29 @@
   text-align: center;
 }
 
-.seats-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 0.5rem; /* afstand mellem celler */
-}
-
-.seats-grid .sponsor-card {
-  padding: 0.25rem;   /* mindre padding end sponsorer */
+.seats-grid .seat-card {
+  position: relative; /* nødvendigt for overlay */
+  padding: 0.25rem;
   text-align: center;
-  background: transparent; /* valgfrit */
+  background: transparent;
 }
 
-.seats-grid .sponsor-card img {
+.seats-grid .seat-card img {
   width: 100%;
-  height: auto; /* eller fast højde hvis ønsket */
+  height: auto;
+  display: block;
+}
+
+.seats-grid .seat-card .seat-name {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); /* centrerer både lodret og vandret */
+  color: black; /* farve på teksten */
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  pointer-events: none; /* gør teksten ikke klikbar */
 }
 
     /* Tablet */
