@@ -36,18 +36,13 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 | {% for c in (1..columns) %} --- | {% endfor %} |
 
 {% for r in (1..rows) %}
-  {% capture row_line %} |{% endcapture %}
-  {% for c in (1..columns) %}
-    {% assign seat = seats[seat_index] %}
-    {% if seat %}
-      {% capture cell %} {{ seat.navn }} {% endcapture %}
-    {% else %}
-      {% capture cell %} &nbsp; {% endcapture %}
-    {% endif %}
-    {% capture row_line %}{{ row_line }} {{ cell }} |{% endcapture %}
-    {% assign seat_index = seat_index | plus: 1 %}
-  {% endfor %}
-  {{ row_line }}
+|{% for c in (1..columns) %}
+  {% assign seat = seats[seat_index] %}
+  {% if seat %}
+    {{ seat.navn }} 
+  {% else %}
+    &nbsp;
+  {% endif %} |{% assign seat_index = seat_index | plus: 1 %}{% endfor %}
 {% endfor %}
   
 <img src="{{ '/assets/seats.png' | relative_url }}" alt="Seats" class="fonde-image">
