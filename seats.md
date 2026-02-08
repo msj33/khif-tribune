@@ -25,13 +25,29 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
   %}
 </div>
   
-💡 **Sådan køber du et tribunesæde via MobilePay:** 
-1. Scan nedenstående QR kode med din mobiltelefon ELLER benyt Mobilepay nummeret: **339971** - _MobilePay boxen hedder "Sponsorsæde KHIF Tribunen"_
+💡 ## Solgte Tribune Sæder
 
-2. Indtast beløbet(500 kr.) og skriv i tekstfeltet det navn(Ex. Hans Hansen) som du gerne vil have påsat sædet. _Ønsker du at støtte anonymt, så skriver du blot "Anonym"_
-   
-4. KHIF Fodbold takker for jeres støtte 👏👏👏
+{% assign seats = site.data.saeder %}
+{% assign columns = 5 %}
+{% assign rows = 18 %}
+{% assign seat_index = 0 %}
 
-<img src="{{ '/assets/QR-kode-mobilepay.png' | relative_url }}" alt="Seats" class="fonde-image">
+| {% for c in (1..columns) %} | {% endfor %} |
+| {% for c in (1..columns) %} --- | {% endfor %} |
+
+{% for r in (1..rows) %}
+  {% capture row_line %} |{% endcapture %}
+  {% for c in (1..columns) %}
+    {% assign seat = seats[seat_index] %}
+    {% if seat %}
+      {% capture cell %} {{ seat.navn }} {% endcapture %}
+    {% else %}
+      {% capture cell %} &nbsp; {% endcapture %}
+    {% endif %}
+    {% capture row_line %}{{ row_line }} {{ cell }} |{% endcapture %}
+    {% assign seat_index = seat_index | plus: 1 %}
+  {% endfor %}
+  {{ row_line }}
+{% endfor %}
   
 <img src="{{ '/assets/seats.png' | relative_url }}" alt="Seats" class="fonde-image">
