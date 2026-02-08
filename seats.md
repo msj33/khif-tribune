@@ -38,10 +38,12 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
     {% assign seat = seats[seat_index] %}
     <div class="sponsor-card">
       {% if seat %}
+        <!-- Navn på sædet -->
         <div class="sponsor-navn">{{ seat.navn }}</div>
+        <!-- Billede af skiltet -->
         <img src="{{ '/assets/saedeskilt.jpg' | relative_url }}" alt="{{ seat.navn }}">
       {% else %}
-        &nbsp;
+        &nbsp; <!-- tom plads hvis der er færre end 90 sæder -->
       {% endif %}
     </div>
     {% assign seat_index = seat_index | plus: 1 %}
