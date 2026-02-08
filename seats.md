@@ -29,7 +29,6 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
   Solgte Tribune Sæder
 </h2>
 
-<!-- Grid med samme kode-logik som sponsorer, 5 kolonner × 18 rækker -->
 <div class="sponsor-grid" style="grid-template-columns: repeat(5, 1fr);">
   {% assign seats = site.data.saeder %}
   {% assign total_slots = 5 | times:18 %}
@@ -40,11 +39,7 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
     <div class="sponsor-card">
       {% if seat %}
         <div class="sponsor-navn">{{ seat.navn }}</div>
-        {% if seat.billede %}
-          <img src="{{ seat.billede | relative_url }}" alt="{{ seat.navn }}">
-        {% else %}
-          <img src="{{ '/assets/default-seat.png' | relative_url }}" alt="{{ seat.navn }}">
-        {% endif %}
+        <img src="{{ '/assets/saedeskilt.jpg' | relative_url }}" alt="{{ seat.navn }}">
       {% else %}
         &nbsp; <!-- tom plads hvis der er færre end 90 sæder -->
       {% endif %}
