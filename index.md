@@ -19,7 +19,8 @@ title: "Forside"
      unit="kr."
   %}
   </div>
-  
+
+    <p>OBS: Udsolgt af stole – og vi har kun 4 pladser tilbage til reklameskilte</p>
     <p>Læs mere om projektet og hjælp med at støtte os via menuen</p>
 
   <!-- Kursiv note før billedet -->
