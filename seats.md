@@ -14,7 +14,7 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
 *Sponsoratet er udelukkende navngivende og giver ikke særlige rettigheder til sædet.*
 
 <h2 style="text-align: center; margin-bottom: 10px;">
-  UDSOLGT - UDSOLGT - Solgte sæder - UDSOLGT - UDSOLGT
+  UDSOLGT - Solgte sæder - UDSOLGT
   </h2>
 
 <div class="homepage-container">
@@ -24,22 +24,32 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
      unit="stk."
   %}
 </div>
-  
+
 <h2 style="text-align: center; margin-top: 3rem;">
   Solgte Tribune Sæder
 </h2>
 
-<div class="sponsor-grid">
+<!-- Grid med samme kode-logik som sponsorer, 5 kolonner × 18 rækker -->
+<div class="sponsor-grid" style="grid-template-columns: repeat(5, 1fr);">
   {% assign seats = site.data.saeder %}
-  {% for seat in seats %}
+  {% assign total_slots = 5 | times:18 %}
+  {% assign seat_index = 0 %}
+
+  {% for i in (1..total_slots) %}
+    {% assign seat = seats[seat_index] %}
     <div class="sponsor-card">
-      <div class="sponsor-navn">{{ seat.navn }}</div>
-      {% if seat.billede %}
-        <img src="{{ seat.billede | relative_url }}" alt="{{ seat.navn }}">
+      {% if seat %}
+        <div class="sponsor-navn">{{ seat.navn }}</div>
+        {% if seat.billede %}
+          <img src="{{ seat.billede | relative_url }}" alt="{{ seat.navn }}">
+        {% else %}
+          <img src="{{ '/assets/default-seat.png' | relative_url }}" alt="{{ seat.navn }}">
+        {% endif %}
       {% else %}
-        <img src="{{ '/assets/default-seat.png' | relative_url }}" alt="{{ seat.navn }}">
+        &nbsp; <!-- tom plads hvis der er færre end 90 sæder -->
       {% endif %}
     </div>
+    {% assign seat_index = seat_index | plus: 1 %}
   {% endfor %}
 </div>
   
