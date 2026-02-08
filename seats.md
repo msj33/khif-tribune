@@ -3,7 +3,7 @@ layout: default
 title: "Sponsorsæde"
 ---
 
-# Hjælp med at få den sidste finansiering på plads – køb et tribunesæde 💚⚽️🏟
+# Køb af tribunesæde 💚⚽️🏟
 
 Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **tribunesæde med dit eget navn/firmanavn** på vores nye tribune! For **500 kr.** kan du:
 
