@@ -35,7 +35,7 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
     <div class="seat-card">
       <img src="{{ '/assets/saedeskilt.jpg' | relative_url }}" alt="Tribunesæde">
       <div class="seat-name">
-        {{ seat.navn }}
+        {{ seat.seat }}
       </div>
     </div>
   {% endfor %}
