@@ -29,23 +29,17 @@ Vil du være en del af KHIF-historien? Nu har du chancen for at sikre dig et **t
   Solgte Tribune Sæder
 </h2>
 
-<div class="sponsor-grid seats-grid" style="grid-template-columns: repeat(5, 1fr); gap: 0.5rem;">
-  {% assign seats = site.data.saeder %}
-  {% assign total_slots = 5 | times:18 %}
-  {% assign seat_index = 0 %}
 
-  {% for i in (1..total_slots) %}
-    {% assign seat = seats[seat_index] %}
-    <div class="sponsor-card seat-card">
-      {% if seat %}
-        <img src="{{ '/assets/saedeskilt.jpg' | relative_url }}" alt="{{ seat.navn }}">
-        <div class="seat-name">{{ seat.navn }}</div>
-      {% else %}
-        &nbsp;
-      {% endif %}
+<div class="seats-grid">
+  {% for seat in site.data.saeder %}
+    <div class="seat-card">
+      <img src="{{ '/assets/saedeskilt.jpg' | relative_url }}" alt="Tribunesæde">
+      <div class="seat-name">
+        {{ seat.navn }}
+      </div>
     </div>
-    {% assign seat_index = seat_index | plus: 1 %}
   {% endfor %}
 </div>
+
   
 <img src="{{ '/assets/seats.png' | relative_url }}" alt="Seats" class="fonde-image">
