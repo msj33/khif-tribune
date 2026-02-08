@@ -136,6 +136,23 @@
   text-align: center;
 }
 
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem; /* afstand mellem celler */
+}
+
+.seats-grid .sponsor-card {
+  padding: 0.25rem;   /* mindre padding end sponsorer */
+  text-align: center;
+  background: transparent; /* valgfrit */
+}
+
+.seats-grid .sponsor-card img {
+  width: 100%;
+  height: auto; /* eller fast højde hvis ønsket */
+}
+
     /* Tablet */
     @media (max-width: 900px) {
       .sponsor-grid {
