@@ -136,30 +136,41 @@
   text-align: center;
 }
 
-.seats-grid .seat-card {
-  position: relative; /* nødvendigt for overlay */
-  padding: 0.25rem;
-  text-align: center;
-  background: transparent;
-}
+    .seats-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.5rem;
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
 
-.seats-grid .seat-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+    .seat-card {
+      position: relative;   /* KRITISK for overlay */
+      width: 100%;
+    }
 
-.seats-grid .seat-card .seat-name {
-  position: absolute;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%); /* centrerer både lodret og vandret */
-  color: black; /* farve på teksten */
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  pointer-events: none; /* gør teksten ikke klikbar */
-}
+    .seat-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .seat-name {
+      position: absolute;
+      top: 46%;        /* JUSTÉR HER */
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+
+      font-size: 0.85rem; /* JUSTÉR HER */
+      font-weight: bold;
+      color: #000;
+      text-align: center;
+      white-space: nowrap;
+
+      pointer-events: none;
+    }
 
     /* Tablet */
     @media (max-width: 900px) {
