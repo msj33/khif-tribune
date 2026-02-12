@@ -20,7 +20,7 @@ title: "Forside"
   %}
   </div>
 
-    <p>💚💚💚 Vi er i MÅL på kun 17 dage! 👏👏👏 - Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚💚💚</p>
+    <p>💚 Vi er i MÅL på kun 17 dage! 👏 - Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
     
     <p>🏟🏟🏟 - Anlægsgartneren er allerede igang....Og så snart vejret tillader det, går tømreren også i gang - Mere info/billeder følger snarest </p>
     
