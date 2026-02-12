@@ -22,7 +22,9 @@ title: "Forside"
 
     <p>💚 Vi er i MÅL på kun 17 dage! 👏 - Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
     
-    <p>🏟🏟🏟 - Anlægsgartneren er allerede igang....Og så snart vejret tillader det, går tømreren også i gang - Mere info/billeder følger snarest </p>
+    <p>🪴 🪓 🚜 - Anlægsgartneren har allerede været i gang med at klargøre</p>
+
+    <p>🔨👷‍♂️ 🪚 - Så snart vejret tillader det, går tømreren også i gang - Mere info/billeder følger snarest </p>
     
 
   <!-- Kursiv note før billedet -->
