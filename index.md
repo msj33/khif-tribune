@@ -20,8 +20,10 @@ title: "Forside"
   %}
   </div>
 
-    <p>OBS: Udsolgt af stole – og vi har kun 4 pladser tilbage til reklameskilte</p>
-    <p>Læs mere om projektet og hjælp med at støtte os via menuen</p>
+    <p>💚💚💚 Vi er i MÅL på kun 17 dage! 👏👏👏 - Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚💚💚</p>
+    
+    <p>🏟🏟🏟 - Anlægsgartneren er allerede igang....Og så snart vejret tilader det, så starter tømreren - Mere info/billeder følger snarest </p>
+    
 
   <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
