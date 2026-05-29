@@ -25,7 +25,6 @@ title: "Forside"
     <p>💚 Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
     <br>
     <p>Nedenfor ses det færdige resultat af en tribune med i alt 120 sæder</p>
-    <br>
     <p>Her i Juni måned afholdes der indvielse og åbent hus.....nærmere info følger snarest her og på sociale medier ⚽</p>
 
   <img src="{{ '/assets/tribune-1.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
@@ -34,7 +33,7 @@ title: "Forside"
 
   <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
-    *Den oprindelige Ide-skitse til projektet*
+    *Den oprindelige AI-generede idé-skitse til projektet*
   </p>
 
   <img src="{{ '/assets/khif_tribune-2.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
