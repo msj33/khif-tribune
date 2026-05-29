@@ -20,16 +20,24 @@ title: "Forside"
   %}
   </div>
 
-    <p>💚 Vi er i MÅL på kun 17 dage! 👏 - Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
+    <p>💚 Opdatering 30 Maj: Tribunen er nu færdig!🏟️ - Og vi har fået bygget yderligere 30 sæder gennem 30 sæde-sponsorater samt 2 sponsor-tilskud👏 </p>
     
-    <p>🪴 🪓 🚜 - Anlægsgartneren har allerede været i gang med at klargøre</p>
+    <p>💚 Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
 
-    <p>🔨👷‍♂️ 🪚 - Så snart vejret tillader det, går tømreren også i gang - Mere info/billeder følger snarest </p>
-    
+    <p>Nedenfor ses det færdige resultat af en tribune med 120 sæder - I Juni måned vil vi afholde åbent hus.....nærmere info følger snarest ⚽</p>
+
+<!-- Kursiv note før billedet -->
+  <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
+    *Det færdige resultat*
+  </p>
+
+  <img src="{{ '/assets/tribune-1.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
+  <img src="{{ '/assets/tribune-2.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
+  <img src="{{ '/assets/tribune-3.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
 
   <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
-    *Billedet er en idéskitse og viser ikke det færdige resultat*
+    *Den oprindelige Ide-skitse til projektet*
   </p>
 
   <img src="{{ '/assets/khif_tribune-2.jpg' | relative_url }}" alt="Ny tribune" class="tribune-image">
