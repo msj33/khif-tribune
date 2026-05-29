@@ -31,12 +31,28 @@ Brug “Kontakt os” i menuen til venstre, hvis du ønsker at blive reklamespon
 
 <div class="sponsor-grid">
   {% for sponsor in site.data.sponsorer %}
-    <div class="sponsor-card">
-      <div class="sponsor-navn">{{ sponsor.navn }}</div>
-      <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.navn }}">
-      <div class="sponsor-belob">
-        {{ sponsor.belob }}
+    {% if sponsor.type == "reklame" %}
+      <div class="sponsor-card">
+        <div class="sponsor-navn">{{ sponsor.navn }}</div>
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.navn }}">
+        <div class="sponsor-belob">{{ sponsor.belob }}</div>
       </div>
-    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 style="text-align: center; margin-top: 3rem;">
+  Sponsor-støtte
+</h2>
+
+<div class="sponsor-grid">
+  {% for sponsor in site.data.sponsorer %}
+    {% if sponsor.type == "stotte" %}
+      <div class="sponsor-card">
+        <div class="sponsor-navn">{{ sponsor.navn }}</div>
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.navn }}">
+        <div class="sponsor-belob">{{ sponsor.belob }}</div>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
