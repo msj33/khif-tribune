@@ -87,7 +87,7 @@
       margin: 0 auto 2rem auto;
     }
 
-    /* Stram margin på tekst og progress-bar */
+    /* Stram margin */
     .homepage-container h1,
     .homepage-container p,
     .homepage-container img,
@@ -96,7 +96,7 @@
       margin-bottom: 0.5em;
     }
 
-    /* Sponsor grid */
+    /* Sponsor grid (UÆNDRET) */
     .sponsor-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -106,36 +106,37 @@
       padding: 0 1rem;
     }
 
-.sponsor-card {
-  background-color: #ffffff;
-  color: #000;
-  border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
+    .sponsor-card {
+      background-color: #ffffff;
+      color: #000;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;   /* lodret centrering */
-  align-items: center;       /* vandret centrering */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-  min-height: 180px;         /* sikrer ens højde */
-}
+      min-height: 180px;
+    }
 
-.sponsor-card img {
-  max-height: 150px;          /* ens logo-højde */
-  width: auto;
-  max-width: 100%;
-  object-fit: contain;
-  margin-bottom: 0.5rem;
-}
+    .sponsor-card img {
+      max-height: 150px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      margin-bottom: 0.5rem;
+    }
 
-.sponsor-belob {
-  font-weight: bold;
-  color: var(--primary-color);
-  font-size: 1rem;
-  text-align: center;
-}
+    .sponsor-belob {
+      font-weight: bold;
+      color: var(--primary-color);
+      font-size: 1rem;
+      text-align: center;
+    }
 
+    /* SEATS */
     .seats-grid {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -146,7 +147,7 @@
     }
 
     .seat-card {
-      position: relative;   /* KRITISK for overlay */
+      position: relative;
       width: 100%;
     }
 
@@ -158,31 +159,25 @@
 
     .seat-name {
       position: absolute;
-      top: 46%;       
+      top: 46%;
       left: 52%;
       transform: translate(-50%, -50%);
       z-index: 10;
+
       max-width: 80%;
       font-weight: bold;
-      overflow: hidden;
-      text-overflow: ellipsis;
 
       font-size: 0.3rem;
       color: #000;
       text-align: center;
+
       white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       pointer-events: none;
     }
 
-   @media (max-width: 600px) {
-    .seat-name {
-      font-size: clamp(0.4rem, 2.2vw, 0.5rem);
-      font-size: 0.2rem;
-      max-width: 85%;
-    }
-  }
-    
     /* Tablet */
     @media (max-width: 900px) {
       .sponsor-grid {
@@ -190,7 +185,7 @@
       }
     }
 
-    /* Mobile adjustments */
+    /* Mobile */
     @media (max-width: 600px) {
       .sidebar {
         position: relative;
@@ -230,12 +225,24 @@
         height: auto;
       }
 
+      /* Sponsor uændret */
       .sponsor-grid {
         grid-template-columns: 1fr;
+      }
+
+      /* ONLY SEATS CHANGED */
+      .seats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .seat-name {
+        font-size: 0.45rem;
+        max-width: 75%;
       }
     }
   </style>
 </head>
+
 <body>
   <div class="sidebar">
     {% include menu.html %}
