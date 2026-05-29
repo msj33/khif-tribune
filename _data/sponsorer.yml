@@ -1,55 +1,69 @@
 - navn: Bent Vistisen A/S
   logo: /assets/bsas.png
   belob: 9.375 kr.
+  type: reklame
 
 - navn: MS-SA Aarhus Service & Anlæg
   logo: /assets/masa.png
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Fodboldgaver.dk
   logo: /assets/fodboldgaver.png
   belob: 5.000 kr.
+  type: reklame
 
 - navn: Bent Vistisen A/S
   logo: /assets/bsas.png
   belob: 9.375 kr.
+  type: reklame
 
 - navn: Danbolig - Viby J - Højbjerg - Tranbjerg - Hasselager
   logo: /assets/danbolig.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: C.A.Larsen Automobiler - Peugeot i Viby
   logo: /assets/cal.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Kold & Nygaard A/S
   logo: /assets/koldnygaard.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Sunset Boulevard
   logo: /assets/sunset.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Viberg Tømrerfirma
   logo: /assets/viberg-toemrerfirma.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Rema 1000
   logo: /assets/rema1000.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Malerfirma Blaabjerg
   logo: /assets/malerfirma-blaabjerg.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Stuttcars Aps
   logo: /assets/stuttcars.jpg
   belob: 6.250 kr.
+  type: reklame
 
 - navn: Lions Kolt-Hasselager
   logo: /assets/lions.png
   belob: 15.000 kr.
+  type: stotte
 
 - navn: KHIF Godtposen
   logo: /assets/logo_428741.png
   belob: 7.500 kr.
+  type: stotte
