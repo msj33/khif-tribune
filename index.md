@@ -20,11 +20,13 @@ title: "Forside"
   %}
   </div>
 
-    <p>💚 Opdatering 30 Maj: Tribunen er nu færdig!🏟️ - Og vi har fået bygget yderligere 30 sæder gennem 30 sæde-sponsorater samt 2 sponsor-tilskud👏 </p>
-    
+    <p>Opdatering 30 Maj: Tribunen er nu færdig!🏟️ - Og vi har fået bygget yderligere 30 sæder gennem salg af 30 stk. sæde-sponsorater samt 2 sponsor-tilskud👏 </p>
+    <p></p>
     <p>💚 Tusind tusind tak til alle jer der støtter dette fællesskabende projekt 💚</p>
-
-    <p>Nedenfor ses det færdige resultat af en tribune med 120 sæder - I Juni måned vil vi afholde åbent hus.....nærmere info følger snarest ⚽</p>
+    <p></p>
+    <p>Nedenfor ses det færdige resultat af en tribune med i alt 120 sæder</p>
+    <p></p>
+    <p>I Juni måned afholdes der indvielse og åbent hus.....nærmere info følger snarest⚽</p>
 
 <!-- Kursiv note før billedet -->
   <p style="font-size: 0.9em; font-style: italic; color: #ddd;">
