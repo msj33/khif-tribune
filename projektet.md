@@ -16,7 +16,7 @@ Sommeren 2025 fik Kolt-Hasselager IF godkendelse fra Aarhus Kommune til at opfø
 ## Detaljerne – tribunen
 
 - Udføres i træ i tre rækker – et mere miljøvenligt valg.
-- Ca. 90 siddepladser – genbrug fra det tidligere Aarhus Stadion.
+- Ca. 90 siddepladser – genbrug fra det tidligere Aarhus Stadion. UPDATE: Vi endte med 120 sæder
 - 4 flotte egetræer bevares og integreres i tilskuere tribunen.
 - Tribunen males, så den kan modstå vind og vejr.
 - Det eksisterende hegn på langsiden føres uden om tribunen, så der er overvejende frit udsyn til banen.
